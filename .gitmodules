@@ -1,4 +1,4 @@
-[submodule "adblock2privoxy"]
-	path = adblock2privoxy
-	url = git@github.com:essandess/adblock2privoxy.git
+[submodule "AdguardFilters"]
+	path = ./
+	url = git@github.com:AdguardTeam/AdguardFilters.git
 	branch = master
