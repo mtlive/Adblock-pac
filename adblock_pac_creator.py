@@ -119,11 +119,13 @@ class EasyListPAC:
         return self.args
 
     def easylists_download_latest(self):
-        easylist_url = 'https://easylist.to/easylist/easylist.txt'
+        easylist_lite_url = 'https://cdn.adblockcdn.com/filters/easylist_lite.txt'
+        adgurad_mobile_url = 'https://filters.adtidy.org/extension/ublock/filters/11.txt'
+        adquard_optimized = 'https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt'
         easyprivacy_url = 'https://easylist.to/easylist/easyprivacy.txt'
         fanboy_annoyance_url = 'https://easylist.to/easylist/fanboy-annoyance.txt'
         fanboy_antifacebook = 'https://raw.githubusercontent.com/ryanbr/fanboy-adblock/master/fanboy-antifacebook.txt'
-        self.download_list = [fanboy_antifacebook, fanboy_annoyance_url, easyprivacy_url, easylist_url] + self.extra_easylist_urls
+        self.download_list = [easylist_lite_url, adgurad_mobile_url, easyprivacy_url] + self.extra_easylist_urls
         self.file_list = []
         for url in self.download_list:
             fname = os.path.basename(url)
