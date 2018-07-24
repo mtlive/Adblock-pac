@@ -1,4 +1,4 @@
-#PAC File CDN
+# PAC File CDN
 I've uploaded the PAC file on gitcdn so that you can use this link directly in your proxy settings:
 https://gitcdn.xyz/repo/mtlive/Adblock-pac/master/proxy.pac
 
