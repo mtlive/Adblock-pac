@@ -1,3 +1,7 @@
+#PAC File CDN
+I've uploaded the PAC file on gitcdn so that you can use this link directly in your proxy settings:
+https://gitcdn.xyz/repo/mtlive/Adblock-pac/master/proxy.pac
+
 # easylist-pac-privoxy
 EasyList Tracker and Adblock Rules to Proxy Auto Configuration (PAC) File and Privoxy Actions and Filters
 
